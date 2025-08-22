@@ -5,56 +5,56 @@
   "id": "digital-sanctuary-bible",
   "icons": [
     {
-      "src": "/assets/icon-192.png",
+      "src": "/my-daily-verse/assets/icon-192.png",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "any"
     },
     {
-      "src": "/assets/icon-192.png",
+      "src": "/my-daily-verse/assets/icon-192.png",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "maskable"
     },
     {
-      "src": "/assets/icon-512.png",
+      "src": "/my-daily-verse/assets/icon-512.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any"
     },
     {
-      "src": "/assets/icon-512.png",
+      "src": "/my-daily-verse/assets/icon-512.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "maskable"
     },
     {
-      "src": "/assets/icon-144.png",
+      "src": "/my-daily-verse/assets/icon-144.png",
       "type": "image/png",
       "sizes": "144x144",
       "purpose": "any"
     },
     {
-      "src": "/assets/icon-96.png",
+      "src": "/my-daily-verse/assets/icon-96.png",
       "type": "image/png",
       "sizes": "96x96",
       "purpose": "any"
     },
     {
-      "src": "/assets/icon-72.png",
+      "src": "/my-daily-verse/assets/icon-72.png",
       "type": "image/png",
       "sizes": "72x72",
       "purpose": "any"
     },
     {
-      "src": "/assets/icon-48.png",
+      "src": "/my-daily-verse/assets/icon-48.png",
       "type": "image/png",
       "sizes": "48x48",
       "purpose": "any"
     }
   ],
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "/my-daily-verse/",
+  "scope": "/my-daily-verse/",
   "scope_extensions": [
     {
       "origin": "https://my-daily-verses.netlify.app"
@@ -72,13 +72,13 @@
   "iarc_rating_id": "e84b072d-71b3-4d3e-86ae-31a8ce4e53b7",
   "screenshots": [
     {
-      "src": "/assets/screenshot-wide.png",
+      "src": "/my-daily-verse/assets/screenshot-wide.png",
       "sizes": "1280x720",
       "type": "image/png",
       "form_factor": "wide"
     },
     {
-      "src": "/assets/screenshot-narrow.png",
+      "src": "/my-daily-verse/assets/screenshot-narrow.png",
       "sizes": "750x1334",
       "type": "image/png",
       "form_factor": "narrow"
@@ -89,10 +89,10 @@
       "name": "Read Bible",
       "short_name": "Read",
       "description": "Start reading the Bible",
-      "url": "/?tab=read",
+      "url": "/my-daily-verse/?tab=read",
       "icons": [
         {
-          "src": "/assets/icon-192.png",
+          "src": "/my-daily-verse/assets/icon-192.png",
           "sizes": "192x192"
         }
       ]
@@ -101,10 +101,10 @@
       "name": "Search Bible",
       "short_name": "Search",
       "description": "Search for verses",
-      "url": "/?tab=search",
+      "url": "/my-daily-verse/?tab=search",
       "icons": [
         {
-          "src": "/assets/icon-192.png",
+          "src": "/my-daily-verse/assets/icon-192.png",
           "sizes": "192x192"
         }
       ]
@@ -113,10 +113,10 @@
       "name": "My Notes",
       "short_name": "Notes",
       "description": "View your notes",
-      "url": "/?tab=notes",
+      "url": "/my-daily-verse/?tab=notes",
       "icons": [
         {
-          "src": "/assets/icon-192.png",
+          "src": "/my-daily-verse/assets/icon-192.png",
           "sizes": "192x192"
         }
       ]
@@ -125,10 +125,10 @@
       "name": "Prayer Journal",
       "short_name": "Prayers",
       "description": "Access your prayer journal",
-      "url": "/?tab=prayers",
+      "url": "/my-daily-verse/?tab=prayers",
       "icons": [
         {
-          "src": "/assets/icon-192.png",
+          "src": "/my-daily-verse/assets/icon-192.png",
           "sizes": "192x192"
         }
       ]
@@ -137,44 +137,13 @@
       "name": "Bookmarks",
       "short_name": "Bookmarks",
       "description": "View your bookmarks",
-      "url": "/?tab=bookmarks",
+      "url": "/my-daily-verse/?tab=bookmarks",
       "icons": [
         {
-          "src": "/assets/icon-192.png",
+          "src": "/my-daily-verse/assets/icon-192.png",
           "sizes": "192x192"
         }
       ]
     }
-  ],
-  "edge_side_panel": {
-    "preferred_width": 400
-  },
-  "file_handlers": [
-    {
-      "action": "/",
-      "accept": {
-        "text/plain": [".txt"],
-        "application/json": [".json"]
-      }
-    }
-  ],
-  "protocol_handlers": [
-    {
-      "protocol": "web+bible",
-      "url": "/?verse=%s"
-    }
-  ],
-  "share_target": {
-    "action": "/",
-    "method": "GET",
-    "params": {
-      "title": "title",
-      "text": "text",
-      "url": "url"
-    }
-  },
-  "handle_links": "preferred",
-  "launch_handler": {
-    "client_mode": "navigate-existing"
-  }
+  ]
 }
