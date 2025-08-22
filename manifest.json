@@ -72,13 +72,13 @@
   "iarc_rating_id": "e84b072d-71b3-4d3e-86ae-31a8ce4e53b7",
   "screenshots": [
     {
-      "src": "assets/screenshot-wide.png",
+      "src": "/assets/screenshot-wide.png",
       "sizes": "1280x720",
       "type": "image/png",
       "form_factor": "wide"
     },
     {
-      "src": "assets/screenshot-narrow.png",
+      "src": "/assets/screenshot-narrow.png",
       "sizes": "750x1334",
       "type": "image/png",
       "form_factor": "narrow"
@@ -92,7 +92,7 @@
       "url": "/?tab=read",
       "icons": [
         {
-          "src": "assets/icon-192.png",
+          "src": "/assets/icon-192.png",
           "sizes": "192x192"
         }
       ]
@@ -100,11 +100,11 @@
     {
       "name": "Search Bible",
       "short_name": "Search",
-      "description": "Search Bible verses",
+      "description": "Search for verses",
       "url": "/?tab=search",
       "icons": [
         {
-          "src": "assets/icon-192.png",
+          "src": "/assets/icon-192.png",
           "sizes": "192x192"
         }
       ]
@@ -116,7 +116,31 @@
       "url": "/?tab=notes",
       "icons": [
         {
-          "src": "assets/icon-192.png",
+          "src": "/assets/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Prayer Journal",
+      "short_name": "Prayers",
+      "description": "Access your prayer journal",
+      "url": "/?tab=prayers",
+      "icons": [
+        {
+          "src": "/assets/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Bookmarks",
+      "short_name": "Bookmarks",
+      "description": "View your bookmarks",
+      "url": "/?tab=bookmarks",
+      "icons": [
+        {
+          "src": "/assets/icon-192.png",
           "sizes": "192x192"
         }
       ]
