@@ -1,9 +1,0 @@
-# Force HTTPS
-http://:host/* https://:host/:splat 301!
-
-# SPA routing
-/*    /index.html   200
-
-# PWA specific redirects
-/manifest.json /manifest.json 200
-/service-worker.js /service-worker.js 200
